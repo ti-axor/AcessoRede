@@ -10,6 +10,7 @@ load_dotenv()
 line_cmd = sis.getenv("LINE")
 middle = sis.getenv("MID")
 final = sis.getenv("FINAL")
+password = sis.getenv("PASSWORD")
 
 
 # função recupera informações sobre o usuario windows. O indice determina qual info retornar.
@@ -51,8 +52,11 @@ def list_net_user(email: str):
 # função gera script customizado para usuário
 def create_cmd_line(email: str, letter: str, network: str):
     user = check_usuario(email)
+
+    if (user == 'lmosa'):
+        return f"{line_cmd} {letter} {middle}{network}"
     # checagem de usuarios
-    return f"{line_cmd} {letter} {middle}{network} {final}{user}"
+    return f"{line_cmd} {letter} {middle}{network} {password} {final}{user}"
 
 
 def execute_arquivo_batch(path):

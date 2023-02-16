@@ -3,7 +3,7 @@ axor_to_mdl = {
     'fcunha': 'fteixeira',
     'tsouza': 'tvsouza',
     'eguedes': 'esiqueira',
-    # 'jmeyrelles': 'tvsouza',
+    # 'jmeyrelles': 'lmosa',
 }
 
 # net = ["100\\finnet-remessa", "100\\finnet-retorno", "99\\depto"]
@@ -47,7 +47,7 @@ user_list = {
     'lbarbosa': net[0:2],
     'cbarbosa': [net[len(net) - 1]],
     'mfrancisco': net,
-    'lmosa': net,
+    'lmosa': [net[len(net) - 1]],
     'cmorielo': net[0:2],
     'jmeyrelles': net,
 }
