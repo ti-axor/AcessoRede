@@ -46,7 +46,7 @@ def list_net_user(email: str):
         check = consts.axor_to_mdl[user]
     except KeyError:
         check = user
-    return consts.user_list_test[check]
+    return consts.user_list[check]
 
 # função gera script customizado para usuário
 def create_cmd_line(email: str, letter: str, network: str):

@@ -6,25 +6,25 @@ axor_to_mdl = {
     # 'jmeyrelles': 'tvsouza',
 }
 
-net = ["100\\finnet-remessa", "100\\finnet-retorno", "99\\depto"]
+# net = ["100\\finnet-remessa", "100\\finnet-retorno", "99\\depto"]
 
-user_list = {
-    'lmichaeli': net,
-    'fteixeira': [],
-    'tvsouza': [net[len(net) - 1]],
-    'esiqueira': [],
-    'lbarbosa': net[0:2],
-    'cbarbosa': [net[len(net) - 1]],
-    'mfrancisco': net,
-    'lmosa': net,
-    'cmorielo': net[0:2],
-    'jmeyrelles': net,
-}
+# user_list = {
+#     'lmichaeli': net,
+#     'fteixeira': [],
+#     'tvsouza': [net[len(net) - 1]],
+#     'esiqueira': [],
+#     'lbarbosa': net[0:2],
+#     'cbarbosa': [net[len(net) - 1]],
+#     'mfrancisco': net,
+#     'lmosa': net,
+#     'cmorielo': net[0:2],
+#     'jmeyrelles': net,
+# }
 
 
 direc = ["Y:", "F:", "G:"]
 
-net_test = [
+net = [
     {
         "drt": "100\\finnet-remessa",
         "lct": "Y:"
@@ -39,15 +39,15 @@ net_test = [
     }
 ]
 
-user_list_test = {
-    'lmichaeli': net_test,
+user_list = {
+    'lmichaeli': net,
     'fteixeira': [],
-    'tvsouza': [net_test[len(net) - 1]],
+    'tvsouza': [net[len(net) - 1]],
     'esiqueira': [],
-    'lbarbosa': net_test[0:2],
-    'cbarbosa': [net_test[len(net) - 1]],
-    'mfrancisco': net_test,
-    'lmosa': net_test,
-    'cmorielo': net_test[0:2],
-    'jmeyrelles': net_test,
+    'lbarbosa': net[0:2],
+    'cbarbosa': [net[len(net) - 1]],
+    'mfrancisco': net,
+    'lmosa': net,
+    'cmorielo': net[0:2],
+    'jmeyrelles': net,
 }
