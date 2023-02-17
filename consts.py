@@ -1,8 +1,8 @@
 axor_to_mdl = {
-    'lcosta': 'lmichaeli',
-    'fcunha': 'fteixeira',
-    'tsouza': 'tvsouza',
-    'eguedes': 'esiqueira',
+    "lcosta": "lmichaeli",
+    "fcunha": "fteixeira",
+    "tsouza": "tvsouza",
+    "eguedes": "esiqueira",
     # 'jmeyrelles': 'lmosa',
 }
 
@@ -25,29 +25,20 @@ axor_to_mdl = {
 direc = ["Y:", "F:", "G:"]
 
 net = [
-    {
-        "drt": "100\\finnet-remessa",
-        "lct": "Y:"
-    },
-    {
-        "drt": "100\\finnet-retorno",
-        "lct": "F:"
-    },
-    {
-        "drt": "99\\depto",
-        "lct": "G:"
-    }
+    {"drt": "100\\finnet-remessa", "lct": "Y:"},
+    {"drt": "100\\finnet-retorno", "lct": "F:"},
+    {"drt": "99\\depto", "lct": "G:"},
 ]
 
 user_list = {
-    'lmichaeli': net,
-    'fteixeira': [],
-    'tvsouza': [net[len(net) - 1]],
-    'esiqueira': [],
-    'lbarbosa': net[0:2],
-    'cbarbosa': [net[len(net) - 1]],
-    'mfrancisco': net,
-    'lmosa': [net[len(net) - 1]],
-    'cmorielo': net[0:2],
-    'jmeyrelles': net,
+    "lmichaeli": net,
+    "fteixeira": [],
+    "tvsouza": [net[len(net) - 1]],
+    "esiqueira": [],
+    "lbarbosa": net[0:2],
+    "cbarbosa": [net[len(net) - 1]],
+    "mfrancisco": net,
+    "lmosa": [net[len(net) - 1]],
+    "cmorielo": net[0:2],
+    "jmeyrelles": net,
 }
