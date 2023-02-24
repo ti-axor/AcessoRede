@@ -67,7 +67,7 @@ def execute_arquivo_batch(path):
     return print("Executado com sucesso!!")
 
 
-def create_file(email: str, user: str, nome_arquivo: str):
+def create_file(email: str, nome_arquivo: str):
     try:
         list_user = list_net_user(email)
 
@@ -113,7 +113,7 @@ def main():
     exit_from_all(arquivo_del)
     execute_arquivo_batch(arquivo_del)
 
-    create_file(email, user, nome_arquivo)
+    create_file(email, nome_arquivo)
 
     sis.remove(nome_arquivo)
     return sis.remove(arquivo_del)

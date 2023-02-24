@@ -3,7 +3,7 @@ axor_to_mdl = {
     "fcunha": "fteixeira",
     "tsouza": "tvsouza",
     "eguedes": "esiqueira",
-    # 'jmeyrelles': 'lmosa',
+    'jmeyrelles': 'tvsouza',
 }
 
 # net = ["100\\finnet-remessa", "100\\finnet-retorno", "99\\depto"]
